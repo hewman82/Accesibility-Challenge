@@ -1,9 +1,11 @@
+/*universal selector sets styling for the entire webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*element selector sets styling for everything contained in body element*/
 body {
     background-color: #d9dcd6;
 }
@@ -18,17 +20,23 @@ header {
     
 }
 
-/*deleting unecessary header selectors since there is only one h1 in the code
-.header*/ h1 { 
+/*deleting unecessary selectors since there is only one h1 in the code
+.header
+this is the styling for the heading element in the header*/ 
+h1 { 
     display: inline-block;
     font-size: 48px
 }
-.header h1 .seo {
+/*.header h1
+deleting unnecessary selectors since .seo class appears once in code
+this is the styling for the .seo class in the heading*/ 
+.seo {
     color: #d9dcd6;
 }
 
 /*using nav element selector instead of div
-.header div {*/
+.header div {
+this section defines the styling for the navigation bar*/
 nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -38,25 +46,32 @@ nav{
 }
 
 /*deleting header div selectors since there is only one ul
-.header div*/ ul {
+.header div
+this is the styling for the unordered list element in the navigation bar*/
+ul{
    list-style-type: none;
 }
 
-/*.header div ul*/ li {
+/*.header div ul
+this defines styling for the list of links in the navigation bar, using an element selector since there are no other list elements in the code*/ 
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*this defines the styling for all anchor elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*this defines the styling for all paragraph elements*/
 p {
     font-size: 16px;
 }
 
-/*renaming image class from hero*/
+/*renaming image class from hero
+this is the styling for the image directly below the header*/
 .conference {
     height: 800px;
     width: 100%;
@@ -66,14 +81,16 @@ p {
     background-position: center;
 }
 
-/*replacing content class selector with main element selector*/
+/*replacing content class selector with main element selector
+this is the styling for the main element*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*replacing individual class selectors for each section with one class selector to consolidate styling*/
+/*replacing individual class selectors for each section with one class selector to consolidate styling
+this is the styling for the sections contained in main*/
 .main-styling {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,7 +120,8 @@ main {
 }
 */
 
-/*changing image class selectors to consolidate image styling and float-left, float-right styling*/
+/*changing image class selectors to consolidate image styling and float-left, float-right styling
+this is the styling for the image elements contained in main*/
 .main-image-left {
     max-height: 200px;
     float: left;
@@ -135,7 +153,8 @@ this code is included in main-image-right
 }
 */
 
-/*renaming h2 selectors to consolidate styling*/
+/*renaming h2 selectors to consolidate styling
+this sets the styling for the h2 elements in main*/
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -153,7 +172,8 @@ main h2 {
 }
 */
 
-/*changing benefits class selector to aside element selector*/
+/*changing benefits class selector to aside element selector
+this sets the styling for side bar*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -165,7 +185,8 @@ aside {
     background-color: #2589bd;
 }
 
-/*changing class name to consolodate styling for each section in aside*/
+/*changing class name to consolodate styling for each section in aside
+this sets the styling for the sections in the side bar*/
 .aside-styling {
     margin-bottom: 32px;
     color: #ffffff;
@@ -183,7 +204,8 @@ aside {
 }
 */
 
-/*changing image class selector to consolodate aside image styling*/
+/*changing image class selector to consolodate aside image styling
+this sets the styling for the image elements in the side bar, specifies that they display as blocks, meaning they start in a new line and take up the available width*/
 .aside-image {
     display: block;
     margin: 10px auto;
@@ -205,7 +227,9 @@ aside {
 */
 
 /*deleting class selector to consolodate h3 styling since there is only one h3 in the code
-.benefit-lead */ h3 {
+.benefit-lead 
+this sets the styling for the heading elements in the side bar*/ 
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -222,6 +246,7 @@ aside {
 }
 */
 
+/*this sets the styling for the footer, specifies that it be moved below the floating elements that precede it with the clear property*/
 footer {
     padding: 30px;
     clear: both;
@@ -229,6 +254,7 @@ footer {
     text-align: center;
 }
 
+/*this sets the styling for the heading elements in the footer*/
 footer h4 {
     font-size: 20px;
 }
