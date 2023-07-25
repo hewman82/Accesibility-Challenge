@@ -47,7 +47,6 @@ nav{
     margin-left: 25px;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -154,7 +153,8 @@ main h2 {
 }
 */
 
-.benefits {
+/*changing benefits class selector to aside element selector*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -165,11 +165,13 @@ main h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*changing class name to consolodate styling for each section in aside*/
+.aside-styling {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -179,12 +181,15 @@ main h2 {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+/*deleting class selector to consolodate h3 styling since there is only one h3 in the code
+.benefit-lead */ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -194,13 +199,16 @@ main h2 {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+/*changing image class selector to consolodate aside image styling*/
+.aside-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -212,6 +220,7 @@ main h2 {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
 .footer {
     padding: 30px;
