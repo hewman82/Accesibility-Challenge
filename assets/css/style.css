@@ -67,6 +67,62 @@ p {
     background-position: center;
 }
 
+/*replacing content class selector with main element selector*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*replacing individual class selectors for each section with one class selector to consolidate styling*/
+.main-styling {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* commenting out redundant code
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+/*changing image class selectors to consolidate image styling and float-left, float-right styling*/
+.main-image-left {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.main-image-right {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/*this code is included in main-image-left
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
 /* this code is included in main-image-left
 .float-left {
     float: left;
@@ -80,12 +136,23 @@ this code is included in main-image-right
 }
 */
 
-/*replacing content class selector with main element selector*/
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/*renaming h2 selectors to consolidate styling*/
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
+/*
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
 
 .benefits {
     margin-right: 20px;
@@ -145,72 +212,6 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*replacing individual class selectors for each section with one class selector to consolidate styling*/
-.main-styling {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* commenting out redundant code
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-/*changing image class selectors to consolidate image styling and float-left, float-right styling*/
-.main-image-left {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-.main-image-right {
-    max-height: 200px;
-    float: right;
-    margin-left: 25px;
-}
-
-/*this code is included in main-image-left
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-/*renaming h2 selectors to consolidate styling*/
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
 
 .footer {
     padding: 30px;
