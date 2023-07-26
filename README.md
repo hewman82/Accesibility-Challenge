@@ -5,7 +5,7 @@ This project includes html and css code that has been edited for legilibity, eff
 
 ![Screenshot](https://github.com/hewman82/Accessibility-Restructure/blob/main/Screenshots/A-Rpagephoto.png)
 
-![Screenshot]("C:\Users\monta\OneDrive\Pictures\Screenshots\ARindexphoto.png")
+![Screenshot](https://github.com/hewman82/Accessibility-Restructure/blob/main/Screenshots/ARindexphoto.png)
 
 ## Usage
 Open the html and css files to view comments about how the code has been altered to employ semantic html elements and classes to make the code more logically organized and more efficiently styled. You will also see a page title and alt attributes for images which make the webpage more accessible for users. Open the the link provided to view the resulting webpage.
